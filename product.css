@@ -1,0 +1,85 @@
+
+ .parent {
+    display: flex;
+    background-color: white;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 20px 0;
+    border-radius: 10px;
+    height:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .div1{
+     
+ }
+ .div1 img{
+    height: 500px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+ }
+ .div2{
+    background-color: antiquewhite;
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+
+
+ }
+ .btn{
+    background-color: hsl(158, 36%, 37%);
+    width: 300px;
+    padding: 10px;
+    border: thin;
+    color: white;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .btn:hover, .btn:focus, .btn:active{
+    cursor:pointer;
+    background-color: hsl(212, 21%, 14%);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+ h2{
+    color: hsl(158, 36%, 37%);
+ }
+ 
+ @media screen and (max-width:600px){
+   
+    .parent{
+      display: block;
+      justify-content: center;
+      
+      padding: 10px;
+      background-color: white;
+      
+      
+      
+    }
+    .parent div1{
+background-color: white;
+    }
+    .parent .div2{
+        
+        text-align: left;
+        padding: 10px;
+        background-color: white;
+    
+    }
+    .parent .div1 img{
+        height: 200px;
+        width: 300px;
+        border-top-right-radius:10px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:0;
+
+
+
+
+    }
+    .btn{
+        width: 250px;
+    }
+}
